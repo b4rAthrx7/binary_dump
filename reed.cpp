@@ -22,7 +22,7 @@ std::cout<<chunk.data();
 //#include<windows.h>
 int main(int argv,char* argc[]){
 
-	std::ifstream file("stealth//pay.jpeg",std::ios::binary);
+	std::ifstream file(argc[0],std::ios::binary);
 
 //	file.seekg(0,std::ios::end);
 //	std::streamsize siz=file.tellg(); 
